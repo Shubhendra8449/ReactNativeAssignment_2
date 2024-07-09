@@ -18,7 +18,7 @@ const FirstScreen = ({ navigation }) => {
     };
 
     const goToDetailScreen = () => {
-        navigation.navigate('Second', { callback: handleCallback });
+        navigation.navigate('DetailScreen', { callback: handleCallback });
     };
     return (
         <View style={styles.container}>
