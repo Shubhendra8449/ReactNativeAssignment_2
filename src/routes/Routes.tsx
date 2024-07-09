@@ -12,15 +12,15 @@ const Routes = () => {
   return (
 
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="First">
+      <Stack.Navigator initialRouteName="FirstScreen">
         <Stack.Screen
-          name="First"
+          name="FirstScreen"
           component={FirstScreen}
           options={{ headerShown: false }}
         />
 
         <Stack.Screen
-          name="Second"
+          name="DetailScreen"
           component={SecondScreen}
           options={{ headerShown: true }}
         />

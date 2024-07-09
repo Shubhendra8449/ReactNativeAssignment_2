@@ -51,7 +51,7 @@ const FirstScreen = ({ navigation }) => {
             )}
 
             <TouchableOpacity style={styles.DetailButton} onPress={goToDetailScreen}>
-                <Text style={{ color: 'white' }}> Detail Screen</Text>
+                <Text style={{ color: 'white' }}> Go to Detail Screen</Text>
             </TouchableOpacity>
         </View>
     );
